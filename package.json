@@ -5,34 +5,31 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "serve": "next start",
+    "start": "next start",
     "export": "next export",
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "next": "^10.0.5",
-    "next-compose-plugins": "^2.2.1",
-    "next-optimized-images": "^2.6.2",
-    "polished": "^4.0.5",
-    "rc-drawer": "^4.2.1",
-    "rc-tabs": "^11.7.3",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-ga": "^3.3.0",
-    "react-icons": "^4.1.0",
-    "react-masonry-component": "^6.2.1",
-    "react-scroll": "^1.8.1",
-    "react-stickynode": "^3.0.4",
-    "swiper": "^6.4.5",
-    "theme-ui": "^0.4.0"
+    "next": "^12.0.10",
+    "next-compose-plugins": "^2.2.2",
+    "next-optimized-images": "^2.7.1",
+    "polished": "^5.4.0",
+    "rc-drawer": "^5.1.0",
+    "rc-tabs": "^13.3.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-ga": "^3.4.1",
+    "react-icons": "^4.2.0",
+    "react-masonry-component": "^6.2.2",
+    "react-scroll": "^2.0.1",
+    "react-stickynode": "^4.0.0",
+    "swiper": "^7.0.0",
+    "theme-ui": "^0.6.2"
   },
   "devDependencies": {
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
-    "next-sitemap": "^1.4.5"
-  },
-  "engines": {
-    "node": "16"
+    "next-sitemap": "^2.0.0"
   }
 }
